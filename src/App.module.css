@@ -1,0 +1,24 @@
+.hello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 126px;
+  color: #ffffff;
+  margin-bottom: 55px;
+}
+.setSum,
+.outSum {
+  width: 1440px;
+  height: 350px;
+  margin: 50px 0;
+}

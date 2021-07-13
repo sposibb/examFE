@@ -5,7 +5,7 @@ import SectionInfo from "./SectionInfo/SectionInfo";
 
 const App = () => {
   return (
-    <main>
+    <main className={styles.main}>
       <header>
         <TopHeader />
         <AllHeader />

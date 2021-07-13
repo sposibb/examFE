@@ -1,0 +1,52 @@
+.text {
+  text-align: center;
+  font-size: 24px;
+}
+h2 {
+  font-size: 54px;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+h4 {
+  font-size: 24px;
+}
+.img {
+  height: 150px;
+  width: 150px;
+  margin-left: 30px;
+}
+.titles {
+  text-align: center;
+  font-size: 36px;
+}
+.title {
+  margin-bottom: 80px;
+  font-size: 54px;
+}
+.free {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.kind {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.nerves {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.support {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.save {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.last {
+  margin-bottom: 80px;
+}
+p {
+  text-align: center;
+}

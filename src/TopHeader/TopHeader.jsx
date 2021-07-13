@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 
 const TopHeader = () => {
   return (
-    <Navbar bg="light" expand="lg ">
+    <Navbar bg="light" expand="lg" sticky="top">
       <Navbar.Brand href="#home">
         {" "}
         <img

@@ -3,11 +3,11 @@ import styles from "./AllHeader.module.css";
 
 const AllHeader = () => {
   return (
-    <Carousel fade>
+    <Carousel fade interval={3000}>
       <Carousel.Item className={styles.carousel}>
         <img
           className="d-block w-100"
-          src="./images/hb8.jpg"
+          src="./images/hb5.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -30,7 +30,7 @@ const AllHeader = () => {
       <Carousel.Item className={styles.carousel}>
         <img
           className="d-block w-100"
-          src="./images/hb5.jpg"
+          src="./images/hb8.jpg"
           alt="First slide"
         />
         <Carousel.Caption>

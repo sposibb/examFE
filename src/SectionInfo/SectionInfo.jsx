@@ -12,6 +12,7 @@ const SectionInfo = () => {
           animationIn="bounceInLeft"
           animationOut="fadeOut"
           isVisible={true}
+          animationInDelay="2000"
         >
           <h2>What is a Birthday Service®</h2>
         </Animated>
@@ -20,6 +21,7 @@ const SectionInfo = () => {
             animationIn="bounceInRight"
             animationOut="fadeOut"
             isVisible={true}
+            animationInDelay="2300"
           >
             <p className={styles.titles}>
               Welcome to our page If you have a birthday celebration in the near
@@ -30,6 +32,7 @@ const SectionInfo = () => {
             animationIn="rubberBand"
             animationOut="fadeOut"
             isVisible={true}
+            animationInDelay="2500"
           >
             <p className={styles.title}>Why us?</p>
           </Animated>
@@ -38,6 +41,7 @@ const SectionInfo = () => {
           animationIn="rubberBand"
           animationOut="fadeOut"
           isVisible={true}
+          animationInDelay="3000"
         >
           <Row className={styles.last}>
             <Col>

@@ -1,0 +1,57 @@
+.notenter {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 50px;
+  border: 0;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+.enter {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 50px;
+  border: 0;
+  font-size: 50px;
+
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.enter::placeholder {
+  font-size: 50px;
+}
+.enter:focus {
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.29);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.enter::-webkit-outer-spin-button,
+.enter::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.text {
+  margin-bottom: 50px;
+}
+.about {
+  font-size: 30px;
+  margin-bottom: 60px;
+  align-items: center;
+  text-align: center;
+}

@@ -6,8 +6,8 @@ import SectionInfo from "./SectionInfo/SectionInfo";
 const App = () => {
   return (
     <main className={styles.main}>
+      <TopHeader />
       <header>
-        <TopHeader />
         <AllHeader />
       </header>
       <SectionInfo />

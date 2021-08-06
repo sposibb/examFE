@@ -8,26 +8,14 @@ import Col from "react-bootstrap/Col";
 const DemoPlagin = (props) => {
   const [value, setValue] = useState("");
   const [number, setNumber] = useState("");
-  const [sum, setSum] = useState("");
-  // const EnterPrice = price.value;
-  // const EnterNumber = numberEnter.value;
-  // const SumGift = (e) => {
-  //   e.PreventDefault();
-  //   const
-  // };
+
   function handleChange(e) {
     setValue(e.target.value);
   }
   function handleChangeTwo(e) {
     setNumber(e.target.value);
-    getSum();
-
-    // setSum((value / number).toFixed(2));
   }
-  function getSum() {
-    setSum(value / number);
-  }
-
+  const sum = number ? (+value / +number).toFixed() : "";
   return (
     <section className={styles.wrapper}>
       <Container>

@@ -8,7 +8,12 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Container>
         <h2 className={styles.title}>Birthday Service®</h2>
-        <form className={styles.form} action="#" method="post">
+        <form
+          className={styles.form}
+          action="#"
+          method="post "
+          onSubmit={(e) => e.preventDefault()}
+        >
           <input
             className={styles.input}
             type="email"

@@ -3,9 +3,6 @@ import React from "react";
 import styles from "./SectionSale.module.css";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Modal from "react-bootstrap/Modal";
-import { useState } from "react";
-import { render } from "react-dom";
 
 const SectionSale = () => {
   return (

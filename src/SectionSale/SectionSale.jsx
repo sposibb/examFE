@@ -3,6 +3,9 @@ import React from "react";
 import styles from "./SectionSale.module.css";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import Modal from "react-bootstrap/Modal";
+import { useState } from "react";
+import { render } from "react-dom";
 
 const SectionSale = () => {
   return (
@@ -18,7 +21,7 @@ const SectionSale = () => {
           <Countdown date={Date.now() + 500000000}></Countdown>
         </div>
 
-        <p className={styles.title}>Not miss your chance</p>
+        <p className={styles.title}>Don't miss your chance</p>
         <p className={styles.title}>
           All you need to do is register successfully so don't hesitate
         </p>

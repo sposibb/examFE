@@ -4,6 +4,8 @@ import TopHeader from "./TopHeader/TopHeader";
 import SectionInfo from "./SectionInfo/SectionInfo";
 import SectionSale from "./SectionSale/SectionSale";
 import DemoPlagin from "./DemoPlagin/DemoPlagin";
+import Footer from "./Footer/Footer";
+import React from "react";
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
       <SectionInfo />
       <SectionSale />
       <DemoPlagin />
+      <Footer />
     </main>
   );
 };

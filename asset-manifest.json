@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/examFE/static/css/main.040c61fa.chunk.css",
+    "main.js": "/examFE/static/js/main.b824e9ca.chunk.js",
+    "main.js.map": "/examFE/static/js/main.b824e9ca.chunk.js.map",
+    "runtime-main.js": "/examFE/static/js/runtime-main.4eb4d4ec.js",
+    "runtime-main.js.map": "/examFE/static/js/runtime-main.4eb4d4ec.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/examFE/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.15d3efb3.chunk.js": "/examFE/static/js/2.15d3efb3.chunk.js",
+    "static/js/2.15d3efb3.chunk.js.map": "/examFE/static/js/2.15d3efb3.chunk.js.map",
+    "index.html": "/examFE/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/examFE/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.040c61fa.chunk.css.map": "/examFE/static/css/main.040c61fa.chunk.css.map",
+    "static/js/2.15d3efb3.chunk.js.LICENSE.txt": "/examFE/static/js/2.15d3efb3.chunk.js.LICENSE.txt",
+    "static/media/SectionSale.module.css": "/examFE/static/media/star.9cffa4fd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eb4d4ec.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.15d3efb3.chunk.js",
+    "static/css/main.040c61fa.chunk.css",
+    "static/js/main.b824e9ca.chunk.js"
+  ]
+}
